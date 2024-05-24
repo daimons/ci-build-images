@@ -1,5 +1,6 @@
 //
 // Copyright (c) 2019-2022 Intel Corporation
+// Copyright (c) 2024 IOTech Ltd
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -21,6 +22,6 @@ edgeXBuildDocker (
     dockerImageName: 'edgex-snyk-go',
     dockerNamespace: 'edgex-devops',
     dockerNexusRepo: 'snapshots',
-    dockerTags: ["1.1025.0"],
+    dockerTags: ["latest"],
     releaseBranchOverride: 'snyk'
 )
